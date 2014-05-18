@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="racepoint_component_profile.xsd" manufacturer="Emersive"
+	model="RemoteKbM" device_class="Concierge_Service" alias="RemoteKbM"
+	minimum_component_engine_version="0.0" rpm_xml_version="$Revision: 4.0.1$">
+	<notes>
+        The building preference "Allow profile specific custom actions and resource actions" must be enabled
+	</notes>
+	<resource_ui_mappings>
+		<resource_map resource_type="ENV_CONCIERGESERVICE_SOURCE" ui_map="RemoteKbM"/>
+	</resource_ui_mappings>
+	<control_interfaces preferred="ip">
+		<ip port="55125" response_time_length_ms="500" name_on_component="Ethernet" protocol="tcp">
+			<send_postfix type="hex">0a</send_postfix>
+		</ip>
+	</control_interfaces>
+	<media_interfaces>
+		<data name_on_component="Ethernet">
+			<combined_media>
+				<data_media type="ethernet"/>
+				<control port="55125"/>
+			</combined_media>
+		</data>
+		<internal name_on_component="RemoteKbM">
+			<environmental_media>
+			</environmental_media>
+			<resource resource_type="ENV_CONCIERGESERVICE_SOURCE"/>
+		</internal>
+	</media_interfaces>
+	<state_variable_list>
+		<state_variable name="CurrCode" state_center_binding="CurrCode" state_center_type="string" owning_logical_component="RemoteKbM">0</state_variable>
+		<state_variable name="CurrAction" state_center_binding="CurrAction" state_center_type="string" owning_logical_component="RemoteKbM">0</state_variable>
+
+		<state_variable name="LeftButton" state_center_binding="LeftButton" state_center_type="integer" owning_logical_component="RemoteKbM">0</state_variable>
+		<state_variable name="RightButton" state_center_binding="RightButton" state_center_type="integer" owning_logical_component="RemoteKbM">0</state_variable>
+		
+		<state_variable name="KEYx000E" state_center_binding="KEYx000E" state_center_type="string" owning_logical_component="RemoteKbM">~&#10;`</state_variable>
+		<state_variable name="KEYx0016" state_center_binding="KEYx0016" state_center_type="string" owning_logical_component="RemoteKbM">!&#10;1</state_variable>
+		<state_variable name="KEYx001E" state_center_binding="KEYx001E" state_center_type="string" owning_logical_component="RemoteKbM">@&#10;2</state_variable>
+		<state_variable name="KEYx0026" state_center_binding="KEYx0026" state_center_type="string" owning_logical_component="RemoteKbM">#&#10;3</state_variable>
+		<state_variable name="KEYx0025" state_center_binding="KEYx0025" state_center_type="string" owning_logical_component="RemoteKbM">$&#10;4</state_variable>
+		<state_variable name="KEYx002E" state_center_binding="KEYx002E" state_center_type="string" owning_logical_component="RemoteKbM">%&#10;5</state_variable>
+		<state_variable name="KEYx0036" state_center_binding="KEYx0036" state_center_type="string" owning_logical_component="RemoteKbM">^&#10;6</state_variable>
+		<state_variable name="KEYx003D" state_center_binding="KEYx003D" state_center_type="string" owning_logical_component="RemoteKbM">&amp;&#10;7</state_variable>
+		<state_variable name="KEYx003E" state_center_binding="KEYx003E" state_center_type="string" owning_logical_component="RemoteKbM">*&#10;8</state_variable>
+		<state_variable name="KEYx0046" state_center_binding="KEYx0046" state_center_type="string" owning_logical_component="RemoteKbM">(&#10;9</state_variable>
+		<state_variable name="KEYx0045" state_center_binding="KEYx0045" state_center_type="string" owning_logical_component="RemoteKbM">)&#10;0</state_variable>
+		<state_variable name="KEYx004E" state_center_binding="KEYx004E" state_center_type="string" owning_logical_component="RemoteKbM">_&#10;-</state_variable>
+		<state_variable name="KEYx0055" state_center_binding="KEYx0055" state_center_type="string" owning_logical_component="RemoteKbM">+&#10;=</state_variable>
+		<state_variable name="KEYx0054" state_center_binding="KEYx0054" state_center_type="string" owning_logical_component="RemoteKbM">{&#10;[</state_variable>
+		<state_variable name="KEYx005B" state_center_binding="KEYx005B" state_center_type="string" owning_logical_component="RemoteKbM">}&#10;]</state_variable>
+		<state_variable name="KEYx005C" state_center_binding="KEYx005C" state_center_type="string" owning_logical_component="RemoteKbM">|&#10;\</state_variable>
+		<state_variable name="KEYx004C" state_center_binding="KEYx004C" state_center_type="string" owning_logical_component="RemoteKbM">:&#10;;</state_variable>
+		<state_variable name="KEYx0052" state_center_binding="KEYx0052" state_center_type="string" owning_logical_component="RemoteKbM">"&#10;'</state_variable>
+		<state_variable name="KEYx0041" state_center_binding="KEYx0041" state_center_type="string" owning_logical_component="RemoteKbM">&lt;&#10;,</state_variable>
+		<state_variable name="KEYx0049" state_center_binding="KEYx0049" state_center_type="string" owning_logical_component="RemoteKbM">&gt;&#10;.</state_variable>
+		<state_variable name="KEYx004A" state_center_binding="KEYx004A" state_center_type="string" owning_logical_component="RemoteKbM">?&#10;/</state_variable>
+		<state_variable name="KEYx0057" state_center_binding="KEYx0057" state_center_type="string" owning_logical_component="RemoteKbM">Prnt&#10;Scrn</state_variable>
+		<state_variable name="KEYx005F" state_center_binding="KEYx005F" state_center_type="string" owning_logical_component="RemoteKbM">Scrl&#10;Lock</state_variable>
+		<state_variable name="KEYx006F" state_center_binding="KEYx006F" state_center_type="string" owning_logical_component="RemoteKbM">Pg&#10;Up</state_variable>
+		<state_variable name="KEYx006D" state_center_binding="KEYx006D" state_center_type="string" owning_logical_component="RemoteKbM">Pg&#10;Dn</state_variable>
+
+		<state_variable name="KEYx0062" state_center_binding="KEYx0062" state_center_type="string" owning_logical_component="RemoteKbM">Pause</state_variable>
+		
+		<state_variable name="KEYx005D" state_center_binding="KEYx005D" state_center_type="string" owning_logical_component="RemoteKbM">⌫</state_variable>
+		<!--<state_variable name="KEYx0066" state_center_binding="KEYx0066" state_center_type="string" owning_logical_component="RemoteKbM">???</state_variable>-->
+		<state_variable name="KEYx000D" state_center_binding="KEYx000D" state_center_type="string" owning_logical_component="RemoteKbM">Tab</state_variable>
+		<state_variable name="KEYx0015" state_center_binding="KEYx0015" state_center_type="string" owning_logical_component="RemoteKbM">Q</state_variable>
+		<state_variable name="KEYx001D" state_center_binding="KEYx001D" state_center_type="string" owning_logical_component="RemoteKbM">W</state_variable>
+		<state_variable name="KEYx0024" state_center_binding="KEYx0024" state_center_type="string" owning_logical_component="RemoteKbM">E</state_variable>
+		<state_variable name="KEYx002D" state_center_binding="KEYx002D" state_center_type="string" owning_logical_component="RemoteKbM">R</state_variable>
+		<state_variable name="KEYx0020" state_center_binding="KEYx0020" state_center_type="string" owning_logical_component="RemoteKbM">T</state_variable>
+		<state_variable name="KEYx0035" state_center_binding="KEYx0035" state_center_type="string" owning_logical_component="RemoteKbM">Y</state_variable>
+		<state_variable name="KEYx003C" state_center_binding="KEYx003C" state_center_type="string" owning_logical_component="RemoteKbM">U</state_variable>
+		<state_variable name="KEYx0043" state_center_binding="KEYx0043" state_center_type="string" owning_logical_component="RemoteKbM">I</state_variable>
+		<state_variable name="KEYx0044" state_center_binding="KEYx0044" state_center_type="string" owning_logical_component="RemoteKbM">O</state_variable>
+		<state_variable name="KEYx004D" state_center_binding="KEYx004D" state_center_type="string" owning_logical_component="RemoteKbM">P</state_variable>
+		<state_variable name="KEYx0014" state_center_binding="KEYx0014" state_center_type="string" owning_logical_component="RemoteKbM">Caps</state_variable>
+		<state_variable name="KEYx001C" state_center_binding="KEYx001C" state_center_type="string" owning_logical_component="RemoteKbM">A</state_variable>
+		<state_variable name="KEYx001B" state_center_binding="KEYx001B" state_center_type="string" owning_logical_component="RemoteKbM">S</state_variable>
+		<state_variable name="KEYx0023" state_center_binding="KEYx0023" state_center_type="string" owning_logical_component="RemoteKbM">D</state_variable>
+		<state_variable name="KEYx002B" state_center_binding="KEYx002B" state_center_type="string" owning_logical_component="RemoteKbM">F</state_variable>
+		<state_variable name="KEYx0034" state_center_binding="KEYx0034" state_center_type="string" owning_logical_component="RemoteKbM">G</state_variable>
+		<state_variable name="KEYx0033" state_center_binding="KEYx0033" state_center_type="string" owning_logical_component="RemoteKbM">H</state_variable>
+		<state_variable name="KEYx003B" state_center_binding="KEYx003B" state_center_type="string" owning_logical_component="RemoteKbM">J</state_variable>
+		<state_variable name="KEYx0042" state_center_binding="KEYx0042" state_center_type="string" owning_logical_component="RemoteKbM">K</state_variable>
+		<state_variable name="KEYx004B" state_center_binding="KEYx004B" state_center_type="string" owning_logical_component="RemoteKbM">L</state_variable>
+		<!--<state_variable name="KEYx0053" state_center_binding="KEYx0053" state_center_type="string" owning_logical_component="RemoteKbM">Enter</state_variable>-->
+		<state_variable name="KEYx005A" state_center_binding="KEYx005A" state_center_type="string" owning_logical_component="RemoteKbM">↵</state_variable>
+		<state_variable name="KEYx0012" state_center_binding="KEYx0012" state_center_type="string" owning_logical_component="RemoteKbM">⇧ Shift</state_variable>
+		<!--<state_variable name="KEYx0013" state_center_binding="KEYx0013" state_center_type="string" owning_logical_component="RemoteKbM">???</state_variable>-->
+		<state_variable name="KEYx001A" state_center_binding="KEYx001A" state_center_type="string" owning_logical_component="RemoteKbM">Z</state_variable>
+		<state_variable name="KEYx0022" state_center_binding="KEYx0022" state_center_type="string" owning_logical_component="RemoteKbM">X</state_variable>
+		<state_variable name="KEYx0021" state_center_binding="KEYx0021" state_center_type="string" owning_logical_component="RemoteKbM">C</state_variable>
+		<state_variable name="KEYx002A" state_center_binding="KEYx002A" state_center_type="string" owning_logical_component="RemoteKbM">V</state_variable>
+		<state_variable name="KEYx0032" state_center_binding="KEYx0032" state_center_type="string" owning_logical_component="RemoteKbM">B</state_variable>
+		<state_variable name="KEYx0031" state_center_binding="KEYx0031" state_center_type="string" owning_logical_component="RemoteKbM">N</state_variable>
+		<state_variable name="KEYx003A" state_center_binding="KEYx003A" state_center_type="string" owning_logical_component="RemoteKbM">M</state_variable>
+		
+		<state_variable name="KEYx0051" state_center_binding="KEYx0051" state_center_type="string" owning_logical_component="RemoteKbM">Shift ⇧</state_variable>
+		<!--<state_variable name="KEYx0059" state_center_binding="KEYx0059" state_center_type="string" owning_logical_component="RemoteKbM">???</state_variable>-->
+		<state_variable name="KEYx0011" state_center_binding="KEYx0011" state_center_type="string" owning_logical_component="RemoteKbM">Ctrl</state_variable>
+		<state_variable name="KEYxE05B" state_center_binding="KEYxE05B" state_center_type="string" owning_logical_component="RemoteKbM">⌘</state_variable>
+		<state_variable name="KEYx0019" state_center_binding="KEYx0019" state_center_type="string" owning_logical_component="RemoteKbM">Alt</state_variable>
+		
+		<state_variable name="KEYx0029" state_center_binding="KEYx0029" state_center_type="string" owning_logical_component="RemoteKbM"/><!--Spacebar-->
+		<state_variable name="KEYx0039" state_center_binding="KEYx0039" state_center_type="string" owning_logical_component="RemoteKbM">Alt</state_variable>
+		<state_variable name="KEYxE05C" state_center_binding="KEYxE05C" state_center_type="string" owning_logical_component="RemoteKbM">⌘</state_variable>
+		<state_variable name="KEYx0058" state_center_binding="KEYx0058" state_center_type="string" owning_logical_component="RemoteKbM">Ctrl</state_variable>
+		<state_variable name="KEYx0067" state_center_binding="KEYx0067" state_center_type="string" owning_logical_component="RemoteKbM">Ins</state_variable>
+		<state_variable name="KEYx0064" state_center_binding="KEYx0064" state_center_type="string" owning_logical_component="RemoteKbM">⌦</state_variable>
+		<state_variable name="KEYx006E" state_center_binding="KEYx006E" state_center_type="string" owning_logical_component="RemoteKbM">Hom</state_variable>
+		<state_variable name="KEYx0065" state_center_binding="KEYx0065" state_center_type="string" owning_logical_component="RemoteKbM">End</state_variable>
+		<state_variable name="KEYx0063" state_center_binding="KEYx0063" state_center_type="string" owning_logical_component="RemoteKbM">↑</state_variable>
+		<state_variable name="KEYx0060" state_center_binding="KEYx0060" state_center_type="string" owning_logical_component="RemoteKbM">↓</state_variable>
+		<state_variable name="KEYx0059" state_center_binding="KEYx0059" state_center_type="string" owning_logical_component="RemoteKbM">←</state_variable>
+		<state_variable name="KEYx006A" state_center_binding="KEYx006A" state_center_type="string" owning_logical_component="RemoteKbM">→</state_variable>
+		<state_variable name="KEYx0008" state_center_binding="KEYx0008" state_center_type="string" owning_logical_component="RemoteKbM">Esc</state_variable>
+		<state_variable name="KEYx0007" state_center_binding="KEYx0007" state_center_type="string" owning_logical_component="RemoteKbM">F1</state_variable>
+		<state_variable name="KEYx000F" state_center_binding="KEYx000F" state_center_type="string" owning_logical_component="RemoteKbM">F2</state_variable>
+		<state_variable name="KEYx0017" state_center_binding="KEYx0017" state_center_type="string" owning_logical_component="RemoteKbM">F3</state_variable>
+		<state_variable name="KEYx001F" state_center_binding="KEYx001F" state_center_type="string" owning_logical_component="RemoteKbM">F4</state_variable>
+		<state_variable name="KEYx0027" state_center_binding="KEYx0027" state_center_type="string" owning_logical_component="RemoteKbM">F5</state_variable>
+		<state_variable name="KEYx002F" state_center_binding="KEYx002F" state_center_type="string" owning_logical_component="RemoteKbM">F6</state_variable>
+		<state_variable name="KEYx0037" state_center_binding="KEYx0037" state_center_type="string" owning_logical_component="RemoteKbM">F7</state_variable>
+		<state_variable name="KEYx003F" state_center_binding="KEYx003F" state_center_type="string" owning_logical_component="RemoteKbM">F8</state_variable>
+		<state_variable name="KEYx0047" state_center_binding="KEYx0047" state_center_type="string" owning_logical_component="RemoteKbM">F9</state_variable>
+		<state_variable name="KEYx004F" state_center_binding="KEYx004F" state_center_type="string" owning_logical_component="RemoteKbM">F10</state_variable>
+		<state_variable name="KEYx0056" state_center_binding="KEYx0056" state_center_type="string" owning_logical_component="RemoteKbM">F11</state_variable>
+		<state_variable name="KEYx007D" state_center_binding="KEYx007D" state_center_type="string" owning_logical_component="RemoteKbM">F12</state_variable>
+
+		<state_variable name="Toggle" state_center_binding="Toggle" state_center_type="integer" owning_logical_component="RemoteKbM">0</state_variable>
+		<state_variable name="FontName" state_center_binding="FontName" state_center_type="string" owning_logical_component="RemoteKbM">Helvetica</state_variable>
+		<state_variable name="FontSize" state_center_binding="FontSize" state_center_type="string" owning_logical_component="RemoteKbM">16</state_variable>
+		
+		<state_variable name="Show" state_center_binding="Show" state_center_type="integer" owning_logical_component="RemoteKbM">0</state_variable>
+		
+	</state_variable_list>
+	<logical_component logical_component_name="RemoteKbM">
+		<implementation>
+			<internal name_on_component="RemoteKbM" logical_name="RemoteKbM">
+				<action_to_select name="PowerOn" resource_type="ENV_CONCIERGESERVICE_SOURCE">
+					<arg name="Code">0</arg>
+					<arg name="Action">0</arg>
+				</action_to_select>
+			</internal>
+		</implementation>
+		<status_messages>
+
+			<status_message name="ANPrs">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_ANPrs</constant>
+				<data type="character" constant_length="1">
+					<update state="Toggle" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			<status_message name="ANHld">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_ANHld</constant>
+				<data type="character" constant_length="1">
+					<update state="Toggle" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			<status_message name="ANRls">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_ANRls</constant>
+				<data type="character" constant_length="1">
+					<update state="Toggle" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			<status_message name="ANTRls">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_ANTRls</constant>
+				<data type="character" constant_length="1">
+					<update state="Toggle" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			<status_message name="LeftButtonHold">
+				<constant type="character">LHLD</constant>
+				<data type="character" terminator_type="hex" terminator="0a">
+					<update state="LeftButton" type="string"></update>
+				</data>
+			</status_message>
+			<status_message name="LeftButtonRelease">
+				<constant type="character">LRLS</constant>
+				<data type="character" terminator_type="hex" terminator="0a">
+					<update state="LeftButton" type="string"></update>
+				</data>
+			</status_message>
+			<status_message name="RightButtonHold">
+				<constant type="character">RHLD</constant>
+				<data type="character" terminator_type="hex" terminator="0a">
+					<update state="RightButton" type="string"></update>
+				</data>
+			</status_message>
+			<status_message name="RightButtonRelease">
+				<constant type="character">RRLS</constant>
+				<data type="character" terminator_type="hex" terminator="0a">
+					<update state="RightButton" type="string"></update>
+				</data>
+			</status_message>
+			
+			<status_message name="FontName">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_FontName_</constant>
+				<data type="character" terminator="0a" terminator_type="hex">
+					<update state="FontName" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			<status_message name="FontSize">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_FontSize_</constant>
+				<data type="character" terminator="0a" terminator_type="hex">
+					<update state="FontSize" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			<status_message name="FontColor">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_FontColor_</constant>
+				<data type="character" terminator="0a" terminator_type="hex">
+					<update state="FontColor" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			<status_message name="ShowButton">
+				<data type="character" constant_length="8">
+					<update state="ScanCode" type="string"></update>
+				</data>
+				<constant type="character">_Show_</constant>
+				<data type="character" constant_length="1">
+					<update state="Show" type="string"></update>
+				</data>
+				<append_data_to_state_names state="ScanCode"/>
+			</status_message>
+			
+		</status_messages>
+
+		<universal_component_actions>
+			<action name="PowerOn">
+				<action_argument name="Code"/>
+				<action_argument name="Action"/>
+				<update_state_variable name="CurrCode" update_type="set" update_source="action_argument">Code</update_state_variable>
+				<update_state_variable name="CurrAction" update_type="set" update_source="action_argument">Action</update_state_variable>
+				<command_interface interface="ip">
+					<command response_required="no">
+						<parameter_list>
+							<parameter parameter_data_type="character" action_argument="Code" parameter_total_width="8" parameter_data_width="8"/>
+							<parameter parameter_data_type="character" action_argument="Action" parameter_total_width="8" parameter_data_width="8"/>
+						</parameter_list>
+					</command>
+				</command_interface>
+			</action>
+		</universal_component_actions>
+
+		<custom_component_actions>
+			<action name="AlphaNumKeyHold">
+				<execute_on_state_variable_condition name="CurrAction" test_condition="equal">ANHld</execute_on_state_variable_condition>
+				<command_interface interface="ip">
+					<command response_required="no">
+						<parameter_list>
+							<parameter parameter_data_type="character" state_variable="CurrCode" parameter_total_width="8" parameter_data_width="8"/>
+							<parameter parameter_data_type="character" state_variable="CurrAction" parameter_total_width="8" parameter_data_width="8"/>
+						</parameter_list>
+					</command>
+				</command_interface>
+				<execute_on_schedule period_ms="50"/>
+			</action>
+		</custom_component_actions>
+	
+	</logical_component>
+</component>

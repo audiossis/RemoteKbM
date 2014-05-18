@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>DontInheritOSDFromProfile</key>
+		<false/>
+		<key>OSD</key>
+		<false/>
+		<key>RPMGraphicLayersKey</key>
+		<dict/>
+		<key>RPMScreenButtonsKey</key>
+		<dict>
+			<key>Hard Button 1</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 1</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>1</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>1</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 2</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 2</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>2</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>2</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 3</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 3</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>3</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>3</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 4</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 4</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>4</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>4</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 5</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 5</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>5</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>5</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+
+			<key>LeftButton</key>
+			<dict>
+				<key>Enabled</key>
+				<string>1</string>
+				<key>Command</key>
+				<string>SetState</string>
+				<key>CommandArguments</key>
+				<dict>
+					<key>External</key>
+					<string>1</string>
+					<key>StateName</key>
+					<string>RemoteKbM.RemoteKbM.LeftButton</string>
+					<key>StateValue</key>
+					<string>123</string>
+				</dict>
+				<key>Label</key>
+				<string>Left Button</string>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Left Button</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Button [Enabled]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>61</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{362, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Enabled]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button [Enabled].png</string>
+					</dict>
+					<key>Button [Pressed]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>62</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{362, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Pressed]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button [Pressed].png</string>
+					</dict>
+					<key>IconBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>65</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{379, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>IconBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/IconBounds.png</string>
+					</dict>
+					<key>TextBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>66</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{379, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>TextBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/TextBounds.png</string>
+					</dict>
+				</dict>
+				<key>RPMOverrideKey</key>
+				<dict>
+					<key>Hidden</key>
+					<false/>
+					<key>StateBindings</key>
+					<dict>
+						<key>Hidden</key>
+						<dict>
+							<key>MatchValues</key>
+							<array>
+								<string>123</string>
+							</array>
+							<key>StateName</key>
+							<string>LeftButton</string>
+							<key>StateResource</key>
+							<string>ENV_CONCIERGESERVICE_SOURCE</string>
+							<key>StateType</key>
+							<string>Resource</string>
+							<key>ValueTransformer</key>
+							<array>
+								<string>MatchValues</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>60</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{362, 1082}, {354, 124}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{102, 1188}</string>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+
+			<key>RightButton</key>
+			<dict>
+				<key>Enabled</key>
+				<string>1</string>
+				<key>Command</key>
+				<string>SetState</string>
+				<key>CommandArguments</key>
+				<dict>
+					<key>External</key>
+					<string>1</string>
+					<key>StateName</key>
+					<string>RemoteKbM.RemoteKbM.RightButton</string>
+					<key>StateValue</key>
+					<string>0</string>
+				</dict>
+				<key>Label</key>
+				<string>Right Button</string>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Right Button</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Button [Enabled]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>61</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{562, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Enabled]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button [Enabled].png</string>
+					</dict>
+					<key>Button [Pressed]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>62</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{562, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Pressed]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button [Pressed].png</string>
+					</dict>
+					<key>IconBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>65</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{579, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>IconBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/IconBounds.png</string>
+					</dict>
+					<key>TextBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>66</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{579, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>TextBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/TextBounds.png</string>
+					</dict>
+				</dict>
+				<key>RPMOverrideKey</key>
+				<dict>
+					<key>Hidden</key>
+					<false/>
+					
+					<key>StateBindings</key>
+					<dict>
+						<key>Hidden</key>
+						<dict>
+							<key>StateName</key>
+							<string>RightButton</string>
+							<key>StateResource</key>
+							<string>ENV_CONCIERGESERVICE_SOURCE</string>
+							<key>StateType</key>
+							<string>Resource</string>
+							<key>ValueTransformer</key>
+							<array>
+								<string>Invert</string>
+							</array>
+						</dict>
+					</dict>
+					
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>60</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{562, 1082}, {354, 124}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{102, 1188}</string>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+
+		</dict>
+		<key>RPMScreenGraphicsKey</key>
+		<dict>
+
+			<key>Graphic Background</key>
+			<dict>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Graphic Background</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Graphic Background</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>50</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{256, 128}, {1024, 768}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Graphic Background</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/Graphic Background/Graphic Background.png</string>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>50</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Graphic</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{256, 128}, {1024, 768}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{256, 128}</string>
+			</dict>
+
+			<key>Scroll Graphic</key>
+			<dict>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Scroll Graphic</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Scroll Graphic</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>60</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{256, 128}, {1024, 768}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Scroll Graphic</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd.cache/Scroll Graphic/Scroll Graphic.png</string>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>60</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Graphic</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{256, 128}, {1024, 768}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{256, 128}</string>
+			</dict>
+
+		</dict>
+		<key>RPMScreenPhotoshopFilePathKey</key>
+		<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd</string>
+		<key>RPMScreenTextBoxesKey</key>
+		<dict/>
+		<key>RPMTransitionWhenServiceIsActive</key>
+		<false/>
+		<key>RPMUICItemBoundsKey</key>
+		<string>{{0, 0}, {1536, 1536}}</string>
+		<key>RPMUICPhotoshopModificationDateKey</key>
+		<date>2012-05-22T14:09:24Z</date>
+		<key>RPMUICVersionKey</key>
+		<real>5.9000000953674316</real>
+		<key>RPMUserChangedFlagsGraphicsKey</key>
+		<data> AAAAAAAAAAAAAAAAAAAAAA== </data>
+	</dict>
+</plist>

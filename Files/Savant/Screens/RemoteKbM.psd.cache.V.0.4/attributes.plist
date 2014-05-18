@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSFileCreationDate</key>
+	<date>2014-03-31T09:08:26Z</date>
+	<key>NSFileExtensionHidden</key>
+	<false/>
+	<key>NSFileGroupOwnerAccountID</key>
+	<integer>20</integer>
+	<key>NSFileGroupOwnerAccountName</key>
+	<string>staff</string>
+	<key>NSFileHFSCreatorCode</key>
+	<integer>943868237</integer>
+	<key>NSFileHFSTypeCode</key>
+	<integer>943870035</integer>
+	<key>NSFileModificationDate</key>
+	<date>2014-03-31T14:58:34Z</date>
+	<key>NSFileOwnerAccountID</key>
+	<integer>502</integer>
+	<key>NSFileOwnerAccountName</key>
+	<string>benp</string>
+	<key>NSFilePosixPermissions</key>
+	<integer>420</integer>
+	<key>NSFileReferenceCount</key>
+	<integer>1</integer>
+	<key>NSFileSize</key>
+	<integer>3035097</integer>
+	<key>NSFileSystemFileNumber</key>
+	<integer>23704240</integer>
+	<key>NSFileSystemNumber</key>
+	<integer>16777217</integer>
+	<key>NSFileType</key>
+	<string>NSFileTypeRegular</string>
+	<key>RPMUICVersionKey</key>
+	<real>5.9000000953674316</real>
+</dict>
+</plist>

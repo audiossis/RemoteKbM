@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>DontInheritOSDFromProfile</key>
+		<false/>
+		<key>OSD</key>
+		<false/>
+		<key>RPMGraphicLayersKey</key>
+		<dict/>
+		<key>RPMScreenButtonsKey</key>
+		<dict>
+			<key>Hard Button 1</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 1</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>1</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>1</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 2</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 2</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>2</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>2</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 3</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 3</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>3</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>3</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 4</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 4</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>4</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>4</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+			<key>Hard Button 5</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Hard Button 5</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict/>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>5</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMScreenHardwareButtonIdentifierKey</key>
+				<integer>5</integer>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+
+			<key>Left Button</key>
+			<dict>
+				<key>CopySource</key>
+				<false/>
+				<key>Enabled</key>
+				<string>1</string>
+				<key>Group</key>
+				<integer>2</integer>
+				<key>Hidden</key>
+				<false/>
+				<key>HoldCommand</key>
+				<string>LeftButtonHold_RemoteKbM_RemoteKbM_custom</string>
+				<key>HoldCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>HoldTime</key>
+				<real>1</real>
+				<key>InternalCommand</key>
+				<string>0</string>
+				<key>Label</key>
+				<string>Left Button</string>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Left Button</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Button [Enabled]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>6</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{362, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Enabled]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[Enabled].png</string>
+					</dict>
+					<key>Button [Pressed]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>7</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{362, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Pressed]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[Pressed].png</string>
+					</dict>
+					<key>Button [ToggleEnabled]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>8</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{362, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [ToggleEnabled]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[ToggleEnabled].png</string>
+					</dict>
+					<key>Button [TogglePressed]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>9</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{362, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [TogglePressed]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[TogglePressed].png</string>
+					</dict>
+					<key>IconBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>10</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{379, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>IconBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/IconBounds.png</string>
+					</dict>
+					<key>TextBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>11</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{379, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>TextBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/TextBounds.png</string>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>6</integer>
+				<key>RPMGraphicSourceIdentifierKey</key>
+				<string>Medium Toggle Horizontal Button</string>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{362, 1082}, {354, 124}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{102, 1188}</string>
+				<key>RPMUserChangedFlagsButtonKey</key>
+				<data> AACAAAAAAAAAAAAAAAAAAA== </data>
+				<key>RPMUserChangedFlagsGraphicsKey</key>
+				<data> AQIABQAAAAA= </data>
+				<key>ReleaseCommand</key>
+				<string>LeftButtonClick_RemoteKbM_RemoteKbM_custom</string>
+				<key>ReleaseCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>ShowListState</key>
+				<string>Released</string>
+				<key>Speech</key>
+				<string>Left Button</string>
+				<key>ToggleHoldCommand</key>
+				<string>LeftButtonHold_RemoteKbM_RemoteKbM_custom</string>
+				<key>ToggleHoldCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>ToggleReleaseCommand</key>
+				<string>LeftButtonRelease_RemoteKbM_RemoteKbM_custom</string>
+				<key>ToggleReleaseCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>Type</key>
+				<string>Toggle</string>
+			</dict>
+
+			<key>Right Button</key>
+			<dict>
+				<key>CopySource</key>
+				<false/>
+				<key>Enabled</key>
+				<string>1</string>
+				<key>Group</key>
+				<integer>2</integer>
+				<key>Hidden</key>
+				<false/>
+				<key>Hidden</key>
+				<false/>
+				<key>HoldCommand</key>
+				<string>RightButtonHold_RemoteKbM_RemoteKbM_custom</string>
+				<key>HoldCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>HoldTime</key>
+				<real>1</real>
+				<key>InternalCommand</key>
+				<string>0</string>
+				<key>Label</key>
+				<string>Right Button</string>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Right Button</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Button [Enabled]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>12</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{851, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Enabled]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[Enabled].png</string>
+					</dict>
+					<key>Button [Pressed]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>13</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{851, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Pressed]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[Pressed].png</string>
+					</dict>
+					<key>Button [ToggleEnabled]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>14</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{851, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [ToggleEnabled]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[ToggleEnabled].png</string>
+					</dict>
+					<key>Button [TogglePressed]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>15</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{851, 1082}, {354, 124}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [TogglePressed]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/Button
+							[TogglePressed].png</string>
+					</dict>
+					<key>IconBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>16</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{868, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>IconBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/IconBounds.png</string>
+					</dict>
+					<key>TextBounds</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>17</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{868, 1096}, {319, 89}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>TextBounds</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/TouchPad Buttons/TextBounds.png</string>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>7</integer>
+				<key>RPMGraphicSourceIdentifierKey</key>
+				<string>Medium Toggle Horizontal Button</string>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{851, 1082}, {354, 124}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{102, 1188}</string>
+				<key>RPMUserChangedFlagsGraphicsKey</key>
+				<data> AAAABACAAAA= </data>
+				<key>ReleaseCommand</key>
+				<string>RightButton_RemoteKbM_RemoteKbM_custom</string>
+				<key>ReleaseCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>ShowListState</key>
+				<string>Released</string>
+				<key>Speech</key>
+				<string>Left Button</string>
+				<key>ToggleHoldCommand</key>
+				<string>RightButtonHold_RemoteKbM_RemoteKbM_custom</string>
+				<key>ToggleHoldCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>ToggleReleaseCommand</key>
+				<string>RightButtonRelease_RemoteKbM_RemoteKbM_custom</string>
+				<key>ToggleReleaseCommandArguments</key>
+				<dict>
+					<key>ColNum</key>
+					<string/>
+					<key>RowNum</key>
+					<string/>
+				</dict>
+				<key>Type</key>
+				<string>Toggle</string>
+			</dict>
+
+			<key>TouchPad</key>
+			<dict>
+				<key>Enabled</key>
+				<true/>
+				<key>InternalCommand</key>
+				<false/>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Graph</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Button [Enabled]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>31</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>0.0</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{82, 169}, {1372, 1158}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Enabled]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/hvacSchedule.psd.cache/Graph/Button [Enabled].png</string>
+					</dict>
+					<key>Button [Pressed]</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>30</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>0.0</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{82, 169}, {1372, 1158}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Button [Pressed]</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/hvacSchedule.psd.cache/Graph/Button [Pressed].png</string>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>4</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Button</string>
+				<key>RPMOverrideKey</key>
+				<dict>
+					<key>BouncesZoom</key>
+					<true/>
+					<key>DataIntegrationServiceName</key>
+					<string>hvacSchedule</string>
+					<key>ElementType</key>
+					<string>Container</string>
+					<key>GraphSubElements</key>
+					<dict>
+						<key>Humidity</key>
+						<dict>
+							<key>GraphFillColor</key>
+							<dict>
+								<key>Alpha</key>
+								<integer>1</integer>
+								<key>Blue</key>
+								<real>0.25</real>
+								<key>Green</key>
+								<real>0.84999999999999998</real>
+								<key>Red</key>
+								<integer>0</integer>
+							</dict>
+							<key>GraphStrokeColor</key>
+							<dict>
+								<key>Alpha</key>
+								<integer>1</integer>
+								<key>Blue</key>
+								<integer>1</integer>
+								<key>Green</key>
+								<integer>1</integer>
+								<key>Red</key>
+								<integer>1</integer>
+							</dict>
+							<key>GraphStrokeWidth</key>
+							<integer>5</integer>
+							<key>GraphTitleHeight</key>
+							<integer>105</integer>
+							<key>IsStepFunction</key>
+							<true/>
+							<key>QueryParameterNames</key>
+							<array>
+								<string>ProfileName</string>
+								<string>Day</string>
+							</array>
+							<key>StateBindings</key>
+							<dict>
+								<key>Day</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedDay</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>DefaultParameters</key>
+								<dict>
+									<key>StateName</key>
+									<string>DefaultValues</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+								<key>EditMode</key>
+								<dict>
+									<key>StateName</key>
+									<string>EditMode</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>FetchError</key>
+								<dict>
+									<key>StateName</key>
+									<string>Error</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+								<key>GraphName</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedGraph</string>
+									<key>StateScope</key>
+									<string>local.GraphContainer</string>
+								</dict>
+								<key>ProfileName</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedProfile</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>Refresh</key>
+								<dict>
+									<key>StateName</key>
+									<string>RefreshValues</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+							</dict>
+							<key>Type</key>
+							<string>Graph</string>
+							<key>XEditGranularity</key>
+							<integer>288</integer>
+							<key>XEditGranularityMaximumZoom</key>
+							<real>1.5</real>
+							<key>YPointsPerX</key>
+							<integer>2</integer>
+						</dict>
+						<key>HumiditySingle</key>
+						<dict>
+							<key>GraphFillColor</key>
+							<dict>
+								<key>Alpha</key>
+								<real>0.0</real>
+								<key>Blue</key>
+								<real>0.0</real>
+								<key>Green</key>
+								<real>0.0</real>
+								<key>Red</key>
+								<integer>0</integer>
+							</dict>
+							<key>GraphStrokeColor</key>
+							<dict>
+								<key>Alpha</key>
+								<integer>1</integer>
+								<key>Blue</key>
+								<real>0.25</real>
+								<key>Green</key>
+								<real>0.84999999999999998</real>
+								<key>Red</key>
+								<integer>0</integer>
+							</dict>
+							<key>GraphStrokeWidth</key>
+							<integer>5</integer>
+							<key>GraphTitleHeight</key>
+							<integer>105</integer>
+							<key>IsStepFunction</key>
+							<true/>
+							<key>QueryParameterNames</key>
+							<array>
+								<string>ProfileName</string>
+								<string>Day</string>
+							</array>
+							<key>StateBindings</key>
+							<dict>
+								<key>Day</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedDay</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>DefaultParameters</key>
+								<dict>
+									<key>StateName</key>
+									<string>DefaultValues</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+								<key>EditMode</key>
+								<dict>
+									<key>StateName</key>
+									<string>EditMode</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>FetchError</key>
+								<dict>
+									<key>StateName</key>
+									<string>Error</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+								<key>GraphName</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedGraph</string>
+									<key>StateScope</key>
+									<string>local.GraphContainer</string>
+								</dict>
+								<key>ProfileName</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedProfile</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>Refresh</key>
+								<dict>
+									<key>StateName</key>
+									<string>RefreshValues</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+							</dict>
+							<key>Type</key>
+							<string>Graph</string>
+							<key>XEditGranularity</key>
+							<integer>288</integer>
+							<key>XEditGranularityMaximumZoom</key>
+							<real>1.5</real>
+							<key>YPointsPerX</key>
+							<integer>1</integer>
+						</dict>
+						<key>Temperature</key>
+						<dict>
+							<key>GraphFillGradient</key>
+							<dict>
+								<key>Colors</key>
+								<array>
+									<dict>
+										<key>Alpha</key>
+										<integer>1</integer>
+										<key>Blue</key>
+										<real>0.0078431372549020006</real>
+										<key>Green</key>
+										<real>0.30980392156862702</real>
+										<key>Red</key>
+										<real>0.76470588235294101</real>
+									</dict>
+									<dict>
+										<key>Alpha</key>
+										<integer>1</integer>
+										<key>Blue</key>
+										<real>0.81960784313725499</real>
+										<key>Green</key>
+										<real>0.97647058823529398</real>
+										<key>Red</key>
+										<real>0.97254901960784301</real>
+									</dict>
+									<dict>
+										<key>Alpha</key>
+										<integer>1</integer>
+										<key>Blue</key>
+										<real>0.83137254999999999</real>
+										<key>Green</key>
+										<real>0.58823528999999997</real>
+										<key>Red</key>
+										<real>0.35294118000000002</real>
+									</dict>
+								</array>
+								<key>Locations</key>
+								<array>
+									<integer>0</integer>
+									<real>0.5</real>
+									<integer>1</integer>
+								</array>
+								<key>StartPoint</key>
+								<dict>
+									<key>x</key>
+									<integer>0</integer>
+									<key>y</key>
+									<integer>0</integer>
+								</dict>
+							</dict>
+							<key>GraphFillType</key>
+							<string>Gradient</string>
+							<key>GraphStrokeColor</key>
+							<dict>
+								<key>Alpha</key>
+								<integer>1</integer>
+								<key>Blue</key>
+								<integer>1</integer>
+								<key>Green</key>
+								<integer>1</integer>
+								<key>Red</key>
+								<integer>1</integer>
+							</dict>
+							<key>GraphStrokeWidth</key>
+							<integer>5</integer>
+							<key>GraphTitleHeight</key>
+							<integer>105</integer>
+							<key>IsStepFunction</key>
+							<true/>
+							<key>QueryParameterNames</key>
+							<array>
+								<string>ProfileName</string>
+								<string>Day</string>
+							</array>
+							<key>StateBindings</key>
+							<dict>
+								<key>Day</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedDay</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>DefaultParameters</key>
+								<dict>
+									<key>StateName</key>
+									<string>DefaultValues</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+								<key>EditMode</key>
+								<dict>
+									<key>StateName</key>
+									<string>EditMode</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>FetchError</key>
+								<dict>
+									<key>StateName</key>
+									<string>Error</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+								<key>GraphName</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedGraph</string>
+									<key>StateScope</key>
+									<string>local.GraphContainer</string>
+								</dict>
+								<key>ProfileName</key>
+								<dict>
+									<key>StateName</key>
+									<string>SelectedProfile</string>
+									<key>StateScope</key>
+									<string>local.Graph</string>
+								</dict>
+								<key>Refresh</key>
+								<dict>
+									<key>StateName</key>
+									<string>RefreshValues</string>
+									<key>StateScope</key>
+									<string>dis.hvacSchedule</string>
+								</dict>
+							</dict>
+							<key>Type</key>
+							<string>Graph</string>
+							<key>XEditGranularity</key>
+							<integer>288</integer>
+							<key>XEditGranularityMaximumZoom</key>
+							<real>1.5</real>
+							<key>YPointsPerX</key>
+							<integer>2</integer>
+						</dict>
+					</dict>
+					<key>Order</key>
+					<integer>10000</integer>
+					<key>SelectedGraph</key>
+					<string>Temperature</string>
+					<key>StateBindings</key>
+					<dict>
+						<key>SelectedGraph</key>
+						<dict>
+							<key>StateName</key>
+							<string>SelectedGraph</string>
+							<key>StateScope</key>
+							<string>local.GraphContainer</string>
+						</dict>
+					</dict>
+					<key>Type</key>
+					<string>GraphContainer</string>
+				</dict>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{82, 169}, {1372, 1158}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{82, 169}</string>
+				<key>Type</key>
+				<string>Push</string>
+			</dict>
+
+			<key>Volume Slider</key>
+			<dict>
+				<key>Command</key>
+				<string>SetVolume</string>
+				<key>CommandArguments</key>
+				<dict>
+					<key>VolumeValue</key>
+					<string/>
+				</dict>
+				<key>Delta</key>
+				<real>1</real>
+				<key>Enabled</key>
+				<true/>
+				<key>HoldCommand</key>
+				<string>VolumeUp</string>
+				<key>InternalCommand</key>
+				<false/>
+				<key>MaxValue</key>
+				<real>50</real>
+				<key>MinValue</key>
+				<real>0.0</real>
+				<key>Orientation</key>
+				<string>Vertical</string>
+				<key>RPMGraphicClassTypeKey</key>
+				<string>RPMUICButton</string>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Volume Slider</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>AlphaEnabled</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>25</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{79, 465}, {30, 630}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>AlphaEnabled</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Buttons/volumeAndLabels.psd.cache/Volume Slider/AlphaEnabled.png</string>
+					</dict>
+					<key>InfoPlate</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>23</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{0, 0}, {0, 0}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>InfoPlate</string>
+						<key>RPMUICLayerPathKey</key>
+						<string/>
+					</dict>
+					<key>Plate</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>24</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{0, 0}, {0, 0}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Plate</string>
+						<key>RPMUICLayerPathKey</key>
+						<string/>
+					</dict>
+					<key>SliderFrame</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>22</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{14, 407}, {158, 756}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>SliderFrame</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Buttons/volumeAndLabels.psd.cache/Volume Slider/SliderFrame.png</string>
+					</dict>
+					<key>Spacer</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>26</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{41, 923}, {106, 106}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Spacer</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Buttons/volumeAndLabels.psd.cache/Volume Slider/Spacer.png</string>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>0</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Selector</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{14, 407}, {158, 756}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{14, 407}</string>
+				<key>ServiceState</key>
+				<string>active</string>
+				<key>SliderArgName</key>
+				<string>VolumeValue</string>
+				<key>Type</key>
+				<string>Selector</string>
+				<key>ValueSourceStateName</key>
+				<string>CurrentVolume</string>
+				<key>ValueSourceStateResource</key>
+				<string>AV_VOLUMECONTROL_FUNCTION</string>
+				<key>ValueSourceStateType</key>
+				<string>Zone</string>
+			</dict>
+
+		</dict>
+		<key>RPMScreenGraphicsKey</key>
+		<dict>
+			<key>Scroll Graphic</key>
+			<dict>
+				<key>RPMGraphicIdentifierKey</key>
+				<string>Scroll Graphic</string>
+				<key>RPMGraphicLayersKey</key>
+				<dict>
+					<key>Scroll Graphic</key>
+					<dict>
+						<key>RPMLayerIndexKey</key>
+						<integer>65600</integer>
+						<key>RPMLayerOpacityKey</key>
+						<real>1</real>
+						<key>RPMUICItemBoundsKey</key>
+						<string>{{312, 552}, {960, 480}}</string>
+						<key>RPMUICLayerIdentifierKey</key>
+						<string>Scroll Graphic</string>
+						<key>RPMUICLayerPathKey</key>
+						<string>Emersive iPad Retina AU Tank
+							Test_2048x1536-18/Screens/RemoteKbM.psd.cache/Scroll Graphic/Scroll
+							Graphic.png</string>
+					</dict>
+				</dict>
+				<key>RPMGraphicRenderingOrderKey</key>
+				<integer>32900</integer>
+				<key>RPMGraphicTypeKey</key>
+				<string>Graphic</string>
+				<key>RPMUICItemBoundsKey</key>
+				<string>{{312, 552}, {960, 480}}</string>
+				<key>RPMUICItemDefaultOriginKey</key>
+				<string>{312, 552}</string>
+			</dict>
+		</dict>
+
+		<key>RPMScreenPhotoshopFilePathKey</key>
+		<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Screens/RemoteKbM.psd</string>
+		<key>RPMScreenTextBoxesKey</key>
+		<dict/>
+		<key>RPMTransitionWhenServiceIsActive</key>
+		<false/>
+		<key>RPMUICItemBoundsKey</key>
+		<string>{{0, 0}, {1536, 1536}}</string>
+		<key>RPMUICPhotoshopModificationDateKey</key>
+		<date>2014-03-31T14:58:34Z</date>
+		<key>RPMUICVersionKey</key>
+		<real>5.9000000953674316</real>
+		<key>RPMUserAddedButtonsKey</key>
+		<array>
+			<string>Right Button</string>
+			<string>Left Button</string>
+		</array>
+		<key>RPMUserChangedFlagsGraphicsKey</key>
+		<data> AAAAAAAAAAAAAAAAAAAAAA== </data>
+	</dict>
+</plist>

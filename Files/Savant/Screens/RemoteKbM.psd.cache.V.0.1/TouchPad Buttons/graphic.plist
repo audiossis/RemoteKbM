@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Enabled</key>
+	<string>1</string>
+	<key>InternalCommand</key>
+	<string>0</string>
+	<key>RPMGraphicClassTypeKey</key>
+	<string>RPMUICButton</string>
+	<key>RPMGraphicIdentifierKey</key>
+	<string>Medium Push Horizontal Button</string>
+	<key>RPMGraphicLayersKey</key>
+	<dict>
+		<key>Button [Enabled]</key>
+		<dict>
+			<key>RPMLayerIndexKey</key>
+			<integer>127</integer>
+			<key>RPMLayerOpacityKey</key>
+			<real>1</real>
+			<key>RPMUICItemBoundsKey</key>
+			<string>{{102, 1188}, {354, 124}}</string>
+			<key>RPMUICLayerIdentifierKey</key>
+			<string>Button [Enabled]</string>
+			<key>RPMUICLayerPathKey</key>
+			<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Buttons/blankPushAndToggle.psd.cache/Medium Push Horizontal Button/Button [Enabled].png</string>
+		</dict>
+		<key>Button [Pressed]</key>
+		<dict>
+			<key>RPMLayerIndexKey</key>
+			<integer>126</integer>
+			<key>RPMLayerOpacityKey</key>
+			<real>1</real>
+			<key>RPMUICItemBoundsKey</key>
+			<string>{{102, 1188}, {354, 124}}</string>
+			<key>RPMUICLayerIdentifierKey</key>
+			<string>Button [Pressed]</string>
+			<key>RPMUICLayerPathKey</key>
+			<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Buttons/blankPushAndToggle.psd.cache/Medium Push Horizontal Button/Button [Pressed].png</string>
+		</dict>
+		<key>IconBounds</key>
+		<dict>
+			<key>RPMLayerIndexKey</key>
+			<integer>129</integer>
+			<key>RPMLayerOpacityKey</key>
+			<real>1</real>
+			<key>RPMUICItemBoundsKey</key>
+			<string>{{119, 1202}, {319, 89}}</string>
+			<key>RPMUICLayerIdentifierKey</key>
+			<string>IconBounds</string>
+			<key>RPMUICLayerPathKey</key>
+			<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Buttons/blankPushAndToggle.psd.cache/Medium Push Horizontal Button/IconBounds.png</string>
+		</dict>
+		<key>TextBounds</key>
+		<dict>
+			<key>RPMLayerIndexKey</key>
+			<integer>128</integer>
+			<key>RPMLayerOpacityKey</key>
+			<real>1</real>
+			<key>RPMUICItemBoundsKey</key>
+			<string>{{119, 1202}, {319, 89}}</string>
+			<key>RPMUICLayerIdentifierKey</key>
+			<string>TextBounds</string>
+			<key>RPMUICLayerPathKey</key>
+			<string>Emersive iPad Retina AU Tank Test_2048x1536-18/Buttons/blankPushAndToggle.psd.cache/Medium Push Horizontal Button/TextBounds.png</string>
+		</dict>
+	</dict>
+	<key>RPMGraphicRenderingOrderKey</key>
+	<integer>0</integer>
+	<key>RPMGraphicTypeKey</key>
+	<string>Button</string>
+	<key>RPMUICItemBoundsKey</key>
+	<string>{{102, 1188}, {354, 124}}</string>
+	<key>RPMUICItemDefaultOriginKey</key>
+	<string>{102, 1188}</string>
+	<key>Type</key>
+	<string>Push</string>
+</dict>
+</plist>
