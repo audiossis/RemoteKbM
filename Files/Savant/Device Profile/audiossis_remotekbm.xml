@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="racepoint_component_profile.xsd" manufacturer="Emersive"
+	xsi:noNamespaceSchemaLocation="racepoint_component_profile.xsd" manufacturer="Audiossis"
 	model="RemoteKbM" device_class="Concierge_Service" alias="RemoteKbM"
 	minimum_component_engine_version="0.0" rpm_xml_version="$Revision: 4.0.1$">
 	<notes>
