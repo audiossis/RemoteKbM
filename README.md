@@ -52,3 +52,5 @@ Bugs:
 	MacOS app dies on execution and fails to run the RemoteKbM.py script.... to be fixed
 	
 	
+
+Donations welcome! http://goo.gl/qX3vrl
