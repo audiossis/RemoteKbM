@@ -6,6 +6,7 @@ Remote Keyboard and Relative Mouse/Trackpad for RacePoint Blueprint
 Version 0.7
 
 Features:
+
 	Touchpad:
 		Vertial and horizontal scrolling zones
 		Click to latch mouse buttons
@@ -19,6 +20,7 @@ Features:
 		Programmable listen interface
 
 To Do:
+
 	Touchpad:
 		Dynamically programmable acceleration
 		Dynamically programmable scroll area width/height
@@ -44,6 +46,7 @@ To Do:
 		Add command line option parsing
 
 Bugs:
+
 	MacOS app dies on execution and fails to run the RemoteKbM.py script.... to be fixed
 	
 	
