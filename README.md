@@ -3,6 +3,8 @@ RemoteKbM
 
 Remote Keyboard and Relative Mouse/Trackpad for RacePoint Blueprint
 
+![screen shot](https://copy.com/hRURrfEWVgK6)
+
 Version 0.7
 
 Features:
