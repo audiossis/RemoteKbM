@@ -156,8 +156,6 @@
 					<string>PowerOn</string>
 					<key>CommandArguments</key>
 					<dict>
-						<key>Assignable</key>
-						<integer>1</integer>
 						<key>Code</key>
 						<string>LCLK</string>
 						<key>Action</key>
